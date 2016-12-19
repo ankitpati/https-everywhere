@@ -1,0 +1,9 @@
+<ruleset name="Airtel.in">
+	<target host="airtel.in" />
+	<target host="www.airtel.in" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http://airtel\.in/(?=.+)" to="https://airtel.in/" />
+	<rule from="^http://www\.airtel\.in/(?=.+)" to="https://www.airtel.in/" />
+</ruleset>
